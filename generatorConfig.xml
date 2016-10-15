@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+ <classPathEntry location="/Users/butterfly/Downloads/mybatis-generator-core-1.3.2/lib/mysql-connector-java-5.1.25-bin.jar" />
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1/xinli" userId="pig" password="" />
+    <javaModelGenerator targetPackage="com.cn.java.data.model" targetProject="javaweb" />
+    <sqlMapGenerator targetPackage="com.cn.java.data.map" targetProject="javaweb" />
+    <javaClientGenerator targetPackage="com.cn.java.data.dao" targetProject="javaweb" type="XMLMAPPER" />
+    <table schema="" tableName="user" >
+   <!--  <columnOverride column="???" property="???" /> -->  
+    </table>
+  </context>
+</generatorConfiguration>
